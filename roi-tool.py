@@ -1008,7 +1008,7 @@ with col2:
     st.markdown("---")
     st.markdown(f"""
     <div style="text-align: center; color: {text_color};">
-        © 2025 MAXAR Technologies | Endpoint Central ROI Calculator<br>
+        © 2025 ManageEngine | Endpoint Central ROI Calculator<br>
         <span style="font-size: 0.8em;">Calculator Version 1.0 | Based on ManageEngine Endpoint Central Pricing as of March 2025<br>
         Disclaimer: This calculator provides estimates. Actual results may vary. Please consult with our technicians for a detailed assessment.</span>
     </div>
