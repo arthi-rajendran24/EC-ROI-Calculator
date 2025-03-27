@@ -14,7 +14,7 @@ import traceback
 
 # Set page config
 st.set_page_config(
-    page_title="Endpoint Central ROI Calculator for MAXAR Technologies ",
+    page_title="Endpoint Central ROI Calculator",
     page_icon="📊",
     layout="wide"
 )
