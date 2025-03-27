@@ -27,7 +27,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### About")
     st.info("""
-    Endpoint Central ROI Calculator for MAXAR Technologies
+    Endpoint Central ROI Calculator
 
     Calculate the potential savings and ROI from implementing
     ManageEngine Endpoint Central for your IT infrastructure.
@@ -125,7 +125,7 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # Title and Introduction
-st.markdown("<div class='title'>Endpoint Central ROI Calculator for MAXAR Technologies</div>", unsafe_allow_html=True)
+st.markdown("<div class='title'>Endpoint Central ROI Calculator </div>", unsafe_allow_html=True)
 st.markdown(
     "<div class='subtitle'>Quantify the cost and time savings by automating routine IT management tasks with Endpoint Central</div>",
     unsafe_allow_html=True)
@@ -886,7 +886,7 @@ with col2:
                             pdf = FPDF()
                             pdf.add_page()
                             pdf.set_font("Arial", "B", 16)
-                            pdf.cell(0, 10, "Endpoint Central ROI Calculator for MAXAR Technologies", ln=True, align="C")
+                            pdf.cell(0, 10, "Endpoint Central ROI Calculator", ln=True, align="C")
                             pdf.set_font("Arial", "", 12)
                             pdf.cell(0, 10, f"Report for {edition} Edition", ln=True, align="C")
                             pdf.line(10, 30, 200, 30)
@@ -980,10 +980,10 @@ with col2:
                             pdf.multi_cell(0, 7, conclusion)
                             pdf.ln(10)
                             pdf.set_font("Arial", "I", 8)
-                            pdf.cell(0, 10, "© 2025 MAXAR Technologies | This report is for informational purposes only.",
+                            pdf.cell(0, 10, "© 2025 ManageEngine | This report is for informational purposes only.",
                                      ln=True, align="C")
                             pdf.cell(0, 10,
-                                     "Contact MAXAR Technologies for a detailed assessment tailored to your specific environment.",
+                                     "Contact our technicians for a detailed assessment tailored to your specific environment.",
                                      ln=True, align="C")
                             with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
                                 pdf_path = tmp.name
